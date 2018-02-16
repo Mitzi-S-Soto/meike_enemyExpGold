@@ -29,21 +29,21 @@ ______________________________
 *Instructions
 *______________________________
 *
-*Change the EXP Formula Parameter to a Javascript evaluation.
-*Change the Gold Formula Parameter to a Javascript evaluation.
+*Change the EXP Formula Parameter to a Javascript formula.
+*Change the Gold Formula Parameter to a Javascript formula.
 *
 ______________________________
 *Plugin Command(s)
 *______________________________
 *meikeGoldFormula - Used to change the Gold Formula in game
-*Example: meikeGoldFormula enemy.gold()*enemy.level
+*Example: meikeGoldFormula enemy.gold()+100
 *
 *meikeGoldReset - Used to reset the Gold Formula to the Plugin Parameter
 *
 *meikeExpFormula - Used to change the EXP Formula in game
-*Example: meikeExpFormula enemy.level*enemy.exp()+1
+*Example: meikeExpFormula enemy.exp()*$gameParty.members()[0].level
 *
-*meikeGoldReset - Used to reset the EXP Formula to the Plugin Parameter
+*meikeExpReset - Used to reset the EXP Formula to the Plugin Parameter
 *
 *
 ______________________________
